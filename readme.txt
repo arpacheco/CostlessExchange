@@ -1,4 +1,4 @@
-The results from all growth simulations (1,051,596 simulations of two organisms with two carbon sources, with and without oxygen) are contained in the MATLAB structure 'MData.'
+The results from all growth simulations (1,051,596 simulations of two organisms with two carbon sources, with and without oxygen) are contained in the MATLAB structure 'MData.' Results are also provided in CSV format in 'MData.zip.'
 
 MData contains the following fields:
 	
@@ -16,9 +16,9 @@ MData contains the following fields:
 
 		- sharedMedium: Cell array detailing the minimal medium composition.
 
-		- sub: Sparse binary double matrix detailing phenotypic information for the first (subject) organism in each simulation. Rows are simulations, column identities are contained in MData.col.
+		- sub: Sparse binary double matrix detailing phenotypic information for the first (subject) organism in each simulation. Rows are simulations, column identities are contained in MData.col (Data given as row, column, value pairs in CSV version).
 
-		- par: Sparse binary double matrix detailing phenotypic information for the second (partner) organism in each simulation. Rows are simulations, column identities are contained in MData.col.
+		- par: Sparse binary double matrix detailing phenotypic information for the second (partner) organism in each simulation. Rows are simulations, column identities are contained in MData.col (Data given as row, column, value pairs in CSV version).
 
 		- Motifs: Data structure with two fields:
 
