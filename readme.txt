@@ -1,4 +1,4 @@
-The results from all growth simulations (1,051,596 simulations of two organisms with two carbon sources, with and without oxygen) are contained in the MATLAB structure 'MData.' Results are also provided in CSV format in 'MData.zip.'
+The results from all growth simulations (1,051,596 simulations of two organisms with two carbon sources, with and without oxygen) are contained in the MATLAB structure 'MData.' Results are also provided in CSV format in 'MDataCSV.zip.'
 
 MData contains the following fields:
 	
